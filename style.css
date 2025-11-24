@@ -1,0 +1,3140 @@
+
+
+@font-face {
+  font-family: 'Nescafe';
+  src: url('Nescafe-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'FrizQuadrata';
+  src: url('path/to/FrizQuadrata-Bold.woff2') format('woff2'),
+       url('path/to/FrizQuadrata-Bold.woff') format('woff');
+   font-weight: bold;
+  font-style: normal;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 4vh;
+    background-color: #43301F;
+    color: #FFFFFF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.left {
+    margin-left: 2vw;
+    display: flex;
+    cursor: pointer;
+}
+
+.left i {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 540;
+}
+
+.left p:hover{
+    text-decoration: underline;
+}
+
+.right {
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    font-weight: 540;
+}
+
+.right p {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-right: 1.5vw;
+    font-size: small;
+    font-weight: 540;
+}
+
+.right i {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.fa-clipboard {
+    margin-top: 4px !important;
+}
+
+.right p:hover{
+    text-decoration: underline;
+}
+
+nav {
+    width: 100vw;
+    height: 15vh;
+    background-color: #302216;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    background: #2d1c11;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.logo {
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-left: 1.7vw;
+    width: 35%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 3vw;
+    font-size: large;
+    font-weight: 440;
+    cursor: pointer;
+}
+
+nav button {
+    border: 1px solid white;
+    width: 8.3vw;
+    font-weight: 700;
+    font-size: large;
+    background-color: transparent;
+    height: 7vh;
+    color: white;
+}
+
+nav button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.fa-magnifying-glass{
+    font-weight: 700;
+    position: absolute;
+    right: 4vw;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.page1 {
+    background-image: url(./images/top\ bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+    background-position: center;
+    background-color: #341B1F;
+}
+
+.contents {
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 40vh;
+    background-color: #341B1F;
+}
+
+.contents h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Nescafe', sans-serif;
+}
+
+.sec {
+    margin-bottom: 2vh;
+}
+
+.contents p {
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mid {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+
+.pink {
+    background-color: #F04996;
+    color: white;
+    width: 11vw;
+    height: 8vh;
+    border-radius: 40px;
+    margin-top: 3vh;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.lastline {
+    height: 20vh;
+    background-color:#341B1F;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.end {
+    height: 12vh;
+}
+
+.page2 {
+    height: 170vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 10vh;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-weight: 560;
+    font-size: 39px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxes {
+    margin-top: 5vh;
+    width: 100%;
+    height: 75vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5vw;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.coffee {
+    position: absolute;
+    top: 1vh;
+    display: block;
+    width: 21vw;
+    cursor: pointer;
+}
+
+.coffee-content {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coffee-content h2 {
+    font-family: 'Nescafe', sans-serif;
+}
+
+.into {
+    margin-top: 3px;
+    margin-bottom: 1vh;
+}
+
+.int {
+    margin-bottom: 2vh;
+}
+
+.topp {
+    margin-top: 2vh;
+}
+
+.coffee-content p {
+    font-size: medium;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.onee {
+    margin-top: 2vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.explore {
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vh;
+}
+
+
+.next {
+    height: 75vh;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.page3 {
+    height: 132vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tasty-emoji {
+    background-color: #CEB9A4;
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji {
+    width: 7vw;
+    margin-top: 9vh;
+}
+
+.image-coffee {
+    height: 110vh;
+    background-image: url(./images/coffee\ background\ beans.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.id {
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.id h1 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #222222;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Lexend", sans-serif;
+}
+
+.glass {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: 70vh;
+    gap: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.cup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cup-of-coffee {
+    width: 100%;
+    cursor: pointer;
+    height: 45vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cup-one {
+    background-image: url(./images/cup1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coffee-cup {
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.coffee-rating {
+    height: 23.5vh;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 2vh 1vw;
+}
+
+.write {
+    font-family: 'Nescafe', sans-serif;
+    font-size: x-large;
+    color: #222222;
+    font-weight: 600;
+}
+
+.write2 {
+    margin-top: 2px;
+}
+
+.cup-two {
+   background-image: url(./images/cup2.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.cup-three {
+    background-image: url(./images/cup3.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cup-four {
+    background-image: url(./images/cup4.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rating {
+    margin-top: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.fa-star {
+    cursor: pointer;
+}
+
+.cup-star1 {
+    border: none;
+    color: #DDDDDD;
+}
+
+.icon-p {
+    font-family: 'Nescafe', sans-serif;
+    margin-left: 5px;
+    color: #777777;
+}
+
+.prep {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prep-p {
+    color: #474747;
+    font-family: 'Nescafe', sans-serif;
+}
+
+.prep-p2 {
+    margin-top: 1px;
+}
+
+.back {
+    color: #BE4C4B;
+    border: none;
+}
+
+.strok {
+    color: #BE4C4B;
+    border: none;
+}
+
+.prep-p3 {
+    margin-top: 1px;
+}
+
+.buttonn {
+    margin-top: 6vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonn button {
+    width: 17vw;
+    height: 7.5vh;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: medium;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Nescafe', sans-serif;
+    transition-timing-function: ease-in-out;
+}
+
+.buttonn button:hover {
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.page4 {
+    width: 100%;
+    height: 65vh;
+    background-image: url(./images/coffees\ jar.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page5 {
+    height: 42vh;
+    width: 100%;
+    background-image: url(./images/cardboard\ background.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.favorite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+}
+
+.coffee-favt {
+   /* font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+.partts {
+    margin-top: 3vh;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.button-favt {
+    width: 100%;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-favt {
+    width: 15vw;
+    height: 7.5vh;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: medium;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Nescafe', sans-serif;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-favt:hover{
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.space {
+    width: 100%;
+    height: 4vh;
+    background-color: #fff;
+}
+
+
+.page6 {
+    height: 116vh;
+    width: 100%;
+    background-color: #B1CDB6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.global {
+    width: 7vw;
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+}
+
+.today {
+    font-size: 38px;
+    font-family: 'Nescafe', sans-serif;
+    margin-bottom: 5vh;
+    color: #222222;
+}
+
+.lists {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 68vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    gap: 3vw;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kit {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beans {
+    width: 20vw;
+    cursor: pointer;
+}
+
+.copy {
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 31vh;
+    width: 100%;
+}
+
+.headss {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 540;
+    color: #222222;
+}
+
+.paras-1 {
+    margin-top: 3px;
+}
+
+.paras {
+    color: #3A3F3B;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3px;
+}
+
+.source {
+    color: #222222;
+    font-weight: 530;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+
+
+.page7 {
+    width: 100%;
+    height: 13vh;
+    background-color: #43301F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-in {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start p {
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 540;
+    color: #FFFFFF;
+    margin-left: 1.5vw;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.end i {
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+.page8 {
+    background-color: #302216;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 28vh;
+}
+
+.subscribe {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5vw;
+}
+
+.pride {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contt {
+    margin-right: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff; 
+    font-size: large;
+    font-weight: 540;
+}
+
+.contt:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.professionals {
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fir {
+    margin-right: 2vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff; 
+    font-size: medium;
+}
+
+.fir:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.lasttt {
+    margin-top: 1.5vh;
+    margin-left: 2.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.pop {
+    font-size: small;
+    color: white;
+}
+
+
+@media (min-width:320px) and (max-width:375px) {
+
+    .right {
+        display: none;
+    }
+
+    nav {
+        height: 11vh;
+    }
+
+    .logo {
+        margin-left: 30vw;
+        width: 40vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        font-weight: 600;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .page1 {
+        background-image: url(./images/mobile-backimg.avif);
+        height: 50vh;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .contents {
+        display: none;
+    }
+
+    .lastline {
+        position: relative;
+        width: 250vw;
+    }
+
+    .iin {
+        position: absolute;
+        left: -87vw !important;
+    }
+
+    .page2 {
+        height: 440vh;
+    }
+
+    .heading {
+        padding: 0vh 3vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+
+    .header {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .boxes {
+        height: 320vh;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5vw;
+    }
+
+    .image {
+        height: 65vh;
+    }
+
+    .coffee {
+        width: 95vw;
+    }
+
+    .coffee-content {
+        height: 40vh;
+    }
+
+    .topp {
+        font-size: 22px;
+    }
+
+    .into {
+        font-size: 22px;
+    }
+
+    .coffee-content h2 {
+        font-size: 22px;
+    }
+
+    .coffee-content p {
+        font-size: small;
+    }
+
+    .page3 {
+        height: 190vh;
+    }
+
+    .tasty-emoji {
+        height: 20vh;
+    }
+
+    .emoji {
+        width: 30vw;
+        margin-top: 5vh;
+    }
+
+    .image-coffee {
+        height: 170vh;
+    }
+
+    .id {
+        padding: 0vh 3vw;
+        height: 18vh;
+    }
+
+    .id h1 {
+        font-size: 35px;
+    }
+
+    .glass {
+        grid-template-columns: repeat(2, 1fr);
+        height: 120vh;
+        gap: 2vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 28vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .coffee-rating {
+        height: 30.5vh;
+        padding: 2vh 2vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+    .icon-p {
+        font-size: small;
+    }
+
+    .prep {
+        margin-top: 6px;
+    }
+
+    .prep-p {
+        font-size: medium;
+    }
+
+    .prep-p2 {
+        margin-top: 1px;
+    }
+
+    .buttonn button {
+        width: 67vw;
+    }
+
+    .page4 {
+        background-image: url(./images/mobile-view-container.avif);
+    }
+
+    .coffee-favt {
+        font-size: 30px;
+        padding: 0vh 3vw;
+    }
+
+    .partts {
+        padding: 0vh 3vw;
+    }
+
+    .favorite {
+        padding: 0vh 3vw;
+    }
+
+    .btn-favt {
+        width: 95vw !important;
+    }
+
+    .button-favt {
+        width: 100%;
+    }
+
+    .page6 {
+        height: 275vh;
+    }
+
+    .today {
+        font-size: 32px;
+        margin-bottom: 5vh;
+    }
+
+    .global {
+        width: 30vw;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
+    }
+
+    .lists {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vh;
+        height: 230vh;
+    }
+
+    .kit {
+        height: 40vh;
+    }
+
+    .beans {
+        width: 78vw;
+    }
+
+    .copy {
+        height: 40vh;
+        margin-top: 1vh;
+    }
+
+
+    .headss {
+        font-size: 6vw;
+    }
+
+    .paras {
+        font-size: medium;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+
+    .end {
+        bottom: 0vh;
+        position: absolute;
+        left: 30vw;
+    }
+
+    .end i {
+        font-size: 6vw;
+        margin-right: 4vw;
+    }
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+    .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 3px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width:375px) and (max-width:425px) {
+
+    .right {
+        display: none;
+    }
+
+    nav {
+        height: 11vh;
+    }
+
+    .logo {
+        margin-left: 30vw;
+        width: 40vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        font-weight: 600;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .page1 {
+        background-image: url(./images/mobile-backimg.avif);
+        height: 50vh;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .contents {
+        display: none;
+    }
+
+    .lastline {
+        position: relative;
+        width: 250vw;
+    }
+
+    .iin {
+        position: absolute;
+        left: -60vw !important;
+    }
+
+    .page2 {
+        height: 470vh;
+    }
+
+    .heading {
+        padding: 0vh 3vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+
+    .header {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .boxes {
+        height: 345vh;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5vw;
+    }
+
+    .image {
+        height: 65vh;
+    }
+
+    .coffee {
+        width: 95vw;
+    }
+
+    .coffee-content {
+        height: 40vh;
+    }
+
+    .topp {
+        font-size: 22px;
+    }
+
+    .into {
+        font-size: 22px;
+    }
+
+    .coffee-content h2 {
+        font-size: 25px;
+    }
+
+    .coffee-content p {
+        font-size: medium;
+    }
+
+    .page3 {
+        height: 190vh;
+    }
+
+    .tasty-emoji {
+        height: 20vh;
+    }
+
+    .emoji {
+        width: 30vw;
+        margin-top: 5vh;
+    }
+
+    .image-coffee {
+        height: 170vh;
+    }
+
+    .id {
+        padding: 0vh 3vw;
+        height: 18vh;
+    }
+
+    .id h1 {
+        font-size: 35px;
+    }
+
+    .glass {
+        grid-template-columns: repeat(2, 1fr);
+        height: 120vh;
+        gap: 2vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 28vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .coffee-rating {
+        height: 30.5vh;
+        padding: 2vh 2vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+
+    .icon-p {
+        font-size: small;
+    }
+
+    .prep {
+        margin-top: 6px;
+    }
+
+    .prep-p {
+        font-size: medium;
+    }
+
+    .prep-p2 {
+        margin-top: 1px;
+    }
+
+    .buttonn button {
+        width: 67vw;
+    }
+
+    .page4 {
+        background-image: url(./images/mobile-view-container.avif);
+    }
+
+    .coffee-favt {
+        font-size: 30px;
+        padding: 0vh 3vw;
+    }
+
+    .partts {
+        padding: 0vh 3vw;
+    }
+
+    .favorite {
+        padding: 0vh 3vw;
+    }
+
+
+    .btn-favt {
+        width: 95vw !important;
+    }
+
+    .button-favt {
+        width: 100%;
+    }
+
+
+    .page6 {
+        height: 300vh;
+    }
+
+    .today {
+        font-size: 32px;
+        margin-bottom: 5vh;
+    }
+
+    .global {
+        width: 30vw;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
+    }
+
+    .lists {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vh;
+        height: 250vh;
+    }
+
+    .kit {
+        height: 51vh;
+    }
+
+    .beans {
+        width: 78vw;
+    }
+
+    .copy {
+        height: 46vh;
+        margin-top: 1vh;
+    }
+
+
+    .headss {
+        font-size: 6vw;
+    }
+
+    .paras {
+        font-size: medium;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+
+    .end {
+        bottom: 0vh;
+        position: absolute;
+        left: 30vw;
+    }
+
+    .end i {
+        font-size: 6vw;
+        margin-right: 4vw;
+    }
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+     .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 3px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width:425px) and (max-width:550px) {
+
+
+    .right {
+        display: none;
+    }
+
+    nav {
+        height: 11vh;
+    }
+
+    .logo {
+        margin-left: 33vw;
+        width: 35vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        font-weight: 600;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .page1 {
+        background-image: url(./images/mobile-backimg.avif);
+        height: 70vh;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .contents {
+        display: none;
+    }
+
+    .lastline {
+        position: relative;
+        width: 250vw;
+    }
+
+    .iin {
+        position: absolute;
+        left: -51vw !important;
+    }
+
+    .page2 {
+        height: 500vh;
+    }
+
+    .heading {
+        padding: 0vh 3vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+
+    .header {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .boxes {
+        height: 370vh;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5vw;
+    }
+
+    .image {
+        height: 65vh;
+    }
+
+    .coffee {
+        width: 95vw;
+    }
+
+    .coffee-content {
+        height: 40vh;
+    }
+
+    .topp {
+        font-size: 22px;
+    }
+
+     .into {
+        font-size: 22px;
+    }
+
+    .coffee-content h2 {
+        font-size: 27px;
+    }
+
+    .coffee-content p {
+        font-size: large;
+    }
+
+    .next {
+        height: 93vh;
+    }
+
+    .page3 {
+        height: 200vh;
+    }
+
+    .tasty-emoji {
+        height: 25vh;
+    }
+
+    .emoji {
+        width: 30vw;
+        margin-top: 2vh;
+    }
+
+    .image-coffee {
+        height: 177vh;
+    }
+
+    .id {
+        padding: 0vh 3vw;
+        height: 18vh;
+    }
+
+    .id h1 {
+        font-size: 35px;
+    }
+
+    .glass {
+        grid-template-columns: repeat(2, 1fr);
+        height: 120vh;
+        gap: 2vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 28vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .coffee-rating {
+        height: 30.5vh;
+        padding: 2vh 2vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+
+    .icon-p {
+        font-size: small;
+    }
+
+    .prep {
+        margin-top: 6px;
+    }
+
+    .prep-p {
+        font-size: medium;
+    }
+
+    .prep-p2 {
+        margin-top: 1px;
+    }
+
+    .buttonn button {
+        width: 67vw;
+    }
+
+
+    .page4 {
+        background-image: url(./images/mobile-view-container.avif);
+    }
+
+    .coffee-favt {
+        font-size: 30px;
+        padding: 0vh 3vw;
+    }
+
+    .partts {
+        padding: 0vh 3vw;
+    }
+
+    .favorite {
+        padding: 0vh 3vw;
+    }
+
+
+    .btn-favt {
+        width: 95vw !important;
+    }
+
+    .button-favt {
+        width: 100%;
+    }
+
+    .page6 {
+        height: 320vh;
+    }
+
+    .today {
+        font-size: 32px;
+        margin-bottom: 5vh;
+    }
+
+    .global {
+        width: 30vw;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
+    }
+
+    .lists {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vh;
+        height: 270vh;
+    }
+
+    .kit {
+        height: 51vh;
+    }
+
+    .beans {
+        width: 78vw;
+    }
+
+    .copy {
+        height: 46vh;
+        margin-top: 1vh;
+    }
+
+
+    .headss {
+        font-size: 6vw;
+    }
+
+    .paras {
+        font-size: medium;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+
+    .end {
+        bottom: 0vh;
+        position: absolute;
+        left: 30vw;
+    }
+
+    .end i {
+        font-size: 6vw;
+        margin-right: 4vw;
+    }
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+     .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 3px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media (min-width:449px) and (max-width:470px) {
+
+    .iin {
+        left: -46vw !important;
+    }
+
+}
+
+@media (min-width:470px) and (max-width:508px) {
+
+    .iin {
+        left: -42vw !important;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:520px) {
+
+
+    .iin {
+        left: -35vw !important;
+    }
+
+} 
+
+@media (min-width:520px) and (max-width:540px) {
+
+    .iin {
+        left: -32vw !important;
+    }
+
+}
+
+@media (min-width:540px) and (max-width:550px) {
+
+    .iin {
+        left: -29vw !important;
+    }
+
+}
+
+@media (min-width:470px) and (max-width:500px) {
+
+
+    .page2 {
+        height: 520vh;
+    }
+
+    .boxes {
+        height: 380vh;
+    }
+
+    .coffee {
+        width: 90vw;
+    }
+
+    .emoji {
+        width: 28vw;
+        margin-top: 2vh;
+    }
+
+    .global {
+        width: 28vw;
+    }
+
+    .today {
+        font-size: 35px;
+    }
+
+    .lists {
+        height: 275vh;
+    }
+
+    .kit {
+        height: 55vh;
+    }
+
+    .beans {
+        width: 75vw;
+    }
+
+    .id {
+        height: 15vh;
+    }
+
+    .id h1 {
+        font-size: 36px;
+    }
+
+    .icon-p {
+        font-size: medium;
+    }
+
+    .headss {
+        font-size: 5.5vw;
+    }
+
+    .end {
+        left: 33vw;
+    }
+
+
+}
+
+@media (min-width:500px) and (max-width:550px) {
+
+
+    .logo {
+        width: 32vw;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .image {
+        height: 50vh;
+    }
+
+    .coffee {
+        width: 68vw;
+    }
+
+    .emoji {
+        width: 26vw;
+    }
+
+    .id {
+         margin-top: 2vh;
+    }
+
+    .id h1 {
+        font-size: 36px;
+    }
+
+    .page6 {
+        height: 325vh;
+    }
+
+    .global {
+        width: 26vw;
+    }
+
+    .today {
+        font-size: 35px;
+    }
+
+    .lists {
+        height: 280vh;
+    } 
+
+    .beans {
+        width: 69vw;
+    }
+
+    .headss {
+        font-size: 5.5vw;
+    }
+
+    .end {
+        left: 32vw;
+    }
+
+
+}
+
+
+@media (min-width :550px) and (max-width:650px) {
+
+
+    .right {
+        display: none;
+    }
+
+    nav {
+        height: 11vh;
+    }
+
+    .logo {
+        margin-left: 37vw;
+        width: 28vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        font-weight: 600;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    
+    .page1 {
+        background-image: url(./images/mobile-backimg.avif);
+        height: 70vh;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .contents {
+        display: none;
+    }
+
+    .lastline {
+        position: relative;
+        width: 250vw;
+    }
+
+    
+     .iin {
+        position: absolute;
+        left: -29vw !important;
+    }
+
+    .page2 {
+        height: 500vh;
+    }
+
+    .heading {
+        padding: 0vh 3vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+
+    .header {
+        width: 91%;
+        font-size: 29px;
+    }
+
+    .boxes {
+        height: 370vh;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5vw;
+    }
+
+    .image {
+        height: 50vh;
+    }
+
+    .coffee {
+        width: 60vw;
+    }
+
+    .coffee-content {
+        height: 40vh;
+    }
+
+    .topp {
+        font-size: 22px;
+    }
+
+     .into {
+        font-size: 22px;
+    }
+
+    .coffee-content h2 {
+        font-size: 30px;
+    }
+
+    .coffee-content p {
+        font-size: large;
+    }
+
+    .next {
+        height: 93vh;
+    }
+
+    .page3 {
+        height: 190vh;
+    }
+
+    .tasty-emoji {
+        height: 25vh;
+    }
+
+    .emoji {
+        width: 23vw;
+        margin-top: 2vh;
+    }
+
+    .image-coffee {
+        height: 166vh;
+    }
+
+    .id {
+        padding: 0vh 3vw;
+        height: 15vh;
+        margin-top: 2vh;
+    }
+
+    .id h1 {
+        font-size: 35px;
+    }
+
+    .glass {
+        grid-template-columns: repeat(2, 1fr);
+        height: 120vh;
+        gap: 2vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 35vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+
+    .coffee-rating {
+        height: 30.5vh;
+        padding: 2vh 2vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+
+    .icon-p {
+        font-size: small;
+    }
+
+    .prep {
+        margin-top: 6px;
+    }
+
+    .prep-p {
+        font-size: medium;
+    }
+
+    .prep-p2 {
+        margin-top: 1px;
+    }
+
+    .buttonn button {
+        width: 67vw;
+    }
+
+    
+    .page4 {
+        background-image: url(./images/mobile-view-container.avif);
+    }
+
+    .coffee-favt {
+        font-size: 30px;
+        padding: 0vh 3vw;
+    }
+
+    .partts {
+        padding: 0vh 3vw;
+    }
+
+    .favorite {
+        padding: 0vh 3vw;
+    }
+
+
+    .btn-favt {
+        width: 90vw !important;
+    }
+
+    .button-favt {
+        width: 100%;
+    }
+
+    .page6 {
+        height: 300vh;
+    }
+
+    .today {
+        font-size: 35px;
+        margin-bottom: 5vh;
+    }
+
+    .global {
+        width: 23vw;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
+    }
+
+    .lists {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vh;
+        height: 255vh;
+    }
+
+    .kit {
+        height: 52vh;
+    }
+
+    .beans {
+        width: 55vw;
+    }
+
+    .copy {
+        height: 46vh;
+        margin-top: 1vh;
+    }
+
+
+    .headss {
+       font-size: 5vw;
+    }
+
+    .paras {
+        font-size: medium;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+
+    .end {
+        bottom: 0vh;
+        position: absolute;
+        left: 36vw;
+    }
+
+    .end i {
+        font-size: 5vw;
+        margin-right: 4vw;
+    }
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+     .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 6px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width:575px) and (max-width:605px) {
+
+    .logo {
+        width: 24vw;
+    }
+
+    .iin {
+        left: -24vw !important;
+    }
+
+}
+
+@media (min-width:605px) and (max-width:625px) {
+
+    .logo {
+        width: 24vw;
+    }
+
+    .global {
+        width: 20vw;
+    }
+
+    .beans {
+        width: 50vw;
+    }
+
+    .headss {
+        font-size: 4vw;
+    }
+
+
+    .iin {
+        left: -20vw !important;
+    }
+
+    .page3 {
+        height: 198vh;
+    }
+
+    .coffee {
+        width: 55vw;
+    }
+
+    .image-coffee {
+        height: 176vh;
+    }
+
+    .buttonn button {
+        width: 46vw;
+    }
+
+    .emoji {
+        width: 20vw;
+    }
+
+    .id {
+        height: 13vh;
+    }
+
+    .glass {
+        height: 131vh;
+    }
+
+    .cup-of-coffee {
+        height: 39vh;
+    }
+
+    .coffee-rating {
+        height: 25.5vh;
+    }
+
+    .page4 {
+        height: 72vh;
+    }
+
+    .btn-favt {
+        width: 37vw !important;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+}
+
+@media (min-width:625px) and (max-width:650px) {
+
+    .logo {
+        width: 24vw;
+    }
+
+    .global {
+        width: 20vw;
+    }
+
+    .beans {
+        width: 50vw;
+    }
+
+    .headss {
+        font-size: 4vw;
+    }
+
+
+    .iin {
+        left: -17vw !important;
+    }
+
+    .page3 {
+        height: 198vh;
+    }
+
+    .coffee {
+        width: 55vw;
+    }
+
+    .image-coffee {
+        height: 176vh;
+    }
+
+
+    .buttonn button {
+        width: 46vw;
+    }
+
+    .emoji {
+        width: 20vw;
+    }
+
+    .id {
+        height: 13vh;
+    }
+
+    .glass {
+        height: 131vh;
+    }
+
+    .cup-of-coffee {
+        height: 39vh;
+    }
+    
+    .coffee-rating {
+        height: 25.5vh;
+    }
+
+    .page4 {
+        height: 72vh;
+    }
+
+    .btn-favt{
+        width: 37vw !important;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+    .beans {
+        width: 48vw;
+    }
+
+}
+
+@media (min-width:650px) and (max-width:768px) {
+
+    nav {
+        height: 12vh;
+    }
+
+    .logo {
+        width: 21vw;
+        margin-left: 41vw;
+    }
+
+    nav ul {
+       display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .page1 {
+        background-position: right;
+    }
+
+    .contents {
+        width: 46vw;
+        height: 50vh;
+    }
+
+    .contents h1 {
+        font-size: 28px;
+    }
+
+    .contents p {
+        font-size: medium;
+    }
+
+    .pink {
+        width: 23vw;
+    }
+
+
+    .page2 {
+        height: 500vh;
+    }
+
+    .heading {
+        padding: 0vh 3vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+
+    .header {
+        font-size: 32px;
+    }
+
+    .boxes {
+        height: 370vh;
+        margin-top: 5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5vw;
+    }
+
+    .image {
+        height: 48vh;
+    }
+
+    .coffee {
+        width: 50vw;
+    }
+
+    .coffee-content {
+        height: 40vh;
+    }
+
+    .topp {
+        font-size: 22px;
+    }
+
+     .into {
+        font-size: 22px;
+    }
+
+    .coffee-content h2 {
+        font-size: 30px;
+    }
+
+    .coffee-content p {
+        font-size: large;
+    }
+
+    .next {
+        height: 93vh;
+    }
+
+    .page3 {
+        height: 204vh;
+    }
+
+    .tasty-emoji {
+        height: 25vh;
+    }
+
+    .emoji {
+        width: 20vw;
+        margin-top: 2vh;
+    }
+
+    .image-coffee {
+        height: 181vh;
+    }
+
+    .id {
+        padding: 0vh 3vw;
+        height: 15vh;
+        margin-top: 2vh;
+    }
+
+    .id h1 {
+        font-size: 35px;
+    }
+
+    .glass {
+        grid-template-columns: repeat(2, 1fr);
+        height: 130vh;
+        gap: 2vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 40vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+
+    .coffee-rating {
+        height: 26.5vh;
+        padding: 2vh 2vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+
+    .icon-p {
+        font-size: small;
+    }
+
+    .prep {
+        margin-top: 6px;
+    }
+
+    .prep-p {
+        font-size: medium;
+    }
+
+    .prep-p2 {
+        margin-top: 1px;
+    }
+
+    .buttonn button {
+        width: 41vw;
+    }
+
+    
+    .page4 {
+        background-image: url(./images/mobile-view-container.avif);
+    }
+
+    .coffee-favt {
+        font-size: 30px;
+        padding: 0vh 3vw;
+    }
+
+    .partts {
+        padding: 0vh 3vw;
+    }
+
+    .favorite {
+        padding: 0vh 3vw;
+    }
+
+
+    .btn-favt {
+        width: 40vw !important;
+    }
+
+    .button-favt {
+        width: 100%;
+    }
+
+    .page6 {
+        height: 305vh;
+    }
+
+    .today {
+        font-size: 35px;
+        margin-bottom: 5vh;
+    }
+
+    .global {
+        width: 20vw;
+        margin-bottom: 3vh;
+        margin-top: 1vh;
+    }
+
+    .lists {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vh;
+        height: 255vh;
+    }
+
+    .kit {
+        height: 52vh;
+    }
+
+    .beans {
+       width: 48vw;
+    }
+
+    .copy {
+        height: 46vh;
+        margin-top: 1vh;
+    }
+
+
+    .headss {
+       font-size: 4vw;
+    }
+
+    .paras {
+        font-size: large;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+    .given {
+        bottom: 0vh;
+        position: absolute;
+        left: 40vw;
+    }
+
+    .given i {
+        font-size: 3vw;
+        margin-right: 4vw;
+    }
+
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+     .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 6px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:1022px) {
+
+    nav {
+        height: 12vh;
+    }
+
+    .logo {
+        width: 21vw;
+        margin-left: 41vw;
+    }
+
+    nav ul {
+       display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .page1 {
+        background-position: right;
+    }
+
+    .contents {
+        width: 46vw;
+        height: 50vh;
+    }
+
+    .contents h1 {
+        font-size: 28px;
+    }
+
+    .contents p {
+        font-size: medium;
+    }
+
+    .pink {
+        width: 23vw;
+    }
+
+    .header {
+        font-size: 32px;
+    }
+
+    .image {
+        height: 31vh;
+    }
+
+    .boxes {
+        height: 80vh;
+    }
+
+    .coffee {
+        width: 21vw;
+    }
+
+    .coffee-content {
+        align-items: flex-start;
+        height: 70vh;
+    }
+
+    .coffee-content h2 {
+        font-size: 21px;
+    }
+
+    .next {
+        height: 79vh;
+    }
+
+    .emoji {
+        width: 15vw;
+        margin-top: 5vh;
+    }
+
+    .glass {
+        height: 70vh;
+    }
+
+    .cup-of-coffee {
+        height: 33vh;
+    }
+
+    .coffee-rating{
+        height: 30.5vh;
+    }
+
+    .write {
+        font-size: large;
+    }
+
+    .buttonn button {
+        width: 30vw;
+    }
+
+    .page4 {
+        height: 37vh;
+    }
+
+    .btn-favt {
+        width: 28vw;
+    }
+
+    .page6 {
+        height: 130vh;
+    }
+
+    .global {
+        width: 15vw;
+    }
+
+    .today {
+        font-size: 39px;
+    }
+
+    .lists {
+        padding-right: 13vw;
+        padding-left: 13vw;
+        height: 90vh;
+    }
+
+    .copy {
+        height: 92vh;
+    }
+
+    .page7 {
+        height: 26vh;
+        position: relative;
+    }
+
+    .header-in {
+        display: block;
+        height: 11vh;
+    }
+
+    .start p {
+        font-size: large;
+        margin-left: 0.5vw;
+    }
+
+    .given {
+        bottom: 0vh;
+        position: absolute;
+        left: 40vw;
+    }
+
+    .given i {
+        font-size: 3vw;
+        margin-right: 4vw;
+    }
+
+
+    .page8 {
+        height: 90vh;
+    }
+
+    .subscribe {
+        margin-top: 5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+    .pride {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contt {
+        margin-top: 2vh;
+        margin-right: 0vw;
+        font-size: large;
+    }
+
+     .professionals {
+        margin-top: 7vh;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+
+    .prof {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fir {
+        margin-bottom: 6px;
+        margin-right: 0vw;
+    }
+
+    .lasttt {
+        padding: 0vh 3vw;
+        margin-top: 3.5vh;
+        margin-left: 0vw;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:1022px) and (max-width:1440px) {
+
+    nav ul {
+        width: 49%;
+    }
+
+    nav button {
+        width: 17.3vw;
+        height: 6vh;
+    }
+
+    .page1 {
+        height: 50vh;
+    }
+
+    .contents {
+        top: 7vh;
+        left: 9vw;
+        width: 40vw;
+        height: 30vh;
+    }
+
+    .pink {
+        width: 18vw;
+        height: 6vh;
+    }
+
+    .iin {
+        height: 10vh;
+    }
+
+    .page2 {
+        height: 170vh;
+    }
+
+    .header {
+        font-size: 35px;
+    }
+
+    .boxes {
+        height: 70vh;
+    }
+
+    .image {
+        height: 31vh;
+    }
+
+    .coffee {
+        width: 25vw;
+    }
+
+    .coffee-content {
+        height: 35vh;
+        align-items: flex-start;
+    }
+
+    .page3 {
+        height: 102vh;
+    }
+
+    .image-coffee {
+        height: 78vh;
+    }
+
+    .emoji {
+        width: 15vw;
+        margin-top: 4vh;
+    }
+
+    .id {
+        height: 6vh;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+
+    .id h1 {
+        font-size: 48px;
+    }
+
+    .glass {
+        height: 50vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .cup-of-coffee {
+        height: 27vh;
+    }
+
+    .buttonn button {
+        width: 26vw;
+        height: 6.5vh;
+    }
+
+    .page4 {
+        height: 40vh;
+    }
+
+    .page5 {
+        height: 35vh;
+    }
+
+    .favorite {
+        height: 35vh;
+    }
+
+    .btn-favt {
+        width: 30vw;
+        height: 6.5vh;
+    }
+
+    .page6 {
+        height: 117vh;
+    }
+
+    .global {
+        width: 15vw;
+    }
+
+    .today {
+        font-size: 50px;
+        margin-bottom: 8vh;
+    }
+
+    .lists {
+        height: 75vh;
+        padding-right: 12vw;
+        padding-left: 12vw;
+    }
+
+    .kit {
+        height: 26vh;
+    }
+
+    .beans {
+        width: 25vw;
+    }
+
+    .copy {
+        height: 45vh;
+        align-items: flex-start;
+    }
+
+    .given {
+        margin-right: 4vw;
+    }
+
+    .fir {
+        font-size: small;
+    }
+
+    .lasttt {
+        margin-top: 2.5vh;
+    }
+
+    .pop {
+        font-size: medium;
+    }
+}
+
+@media (min-width:1140px) and (max-width:1440px) {
+
+    .image {
+        height: 26vh;
+    }
+
+    .fir {
+        font-size: medium;
+    }
+
+
+}
+
+
