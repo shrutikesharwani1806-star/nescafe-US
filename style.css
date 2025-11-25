@@ -904,7 +904,7 @@ nav button:hover {
     }
 
     .image {
-        height: 65vh;
+        height: 55vh;
     }
 
     .coffee {
@@ -1144,6 +1144,12 @@ nav button:hover {
     }
 
 
+}
+
+@media (min-width:400px) and (max-width:425px) {
+    .iin {
+        left: -54vw !important;
+    }
 }
 
 @media (min-width:375px) and (max-width:425px) {
@@ -2451,7 +2457,7 @@ nav button:hover {
 
 }
 
-@media (min-width:650px) and (max-width:768px) {
+@media (min-width:650px) and (max-width:767px) {
 
     nav {
         height: 12vh;
@@ -2767,7 +2773,7 @@ nav button:hover {
 
 }
 
-@media (min-width:768px) and (max-width:1022px) {
+@media (min-width:767px) and (max-width:850px) {
 
     nav {
         height: 12vh;
@@ -2792,7 +2798,7 @@ nav button:hover {
 
     .contents {
         width: 46vw;
-        height: 50vh;
+        height: 37vh;
     }
 
     .contents h1 {
@@ -2964,26 +2970,37 @@ nav button:hover {
 
 }
 
-@media (min-width:1022px) and (max-width:1440px) {
+@media (min-width:850px) and (max-width:1150px) {
+
+    .logo {
+        width: 17vw;
+    }
 
     nav ul {
-        width: 49%;
+        width: 55%;
     }
 
     nav button {
-        width: 17.3vw;
-        height: 6vh;
+        width: 14.3vw;
     }
 
     .page1 {
-        height: 50vh;
+        height: 55vh;
     }
 
     .contents {
-        top: 7vh;
+        top: 6vh;
         left: 9vw;
         width: 40vw;
-        height: 30vh;
+        height: 45vh;
+    }
+
+    .contents h1 {
+        font-size: 31px;
+    }
+
+    .contents p {
+        font-size: medium;
     }
 
     .pink {
@@ -2991,107 +3008,567 @@ nav button:hover {
         height: 6vh;
     }
 
-    .iin {
-        height: 10vh;
-    }
-
-    .page2 {
-        height: 170vh;
-    }
-
-    .header {
-        font-size: 35px;
-    }
-
-    .boxes {
-        height: 70vh;
-    }
-
-    .image {
-        height: 31vh;
-    }
-
-    .coffee {
-        width: 25vw;
-    }
-
-    .coffee-content {
-        height: 35vh;
-        align-items: flex-start;
-    }
-
     .page3 {
-        height: 102vh;
+        height: 128vh;
     }
 
     .image-coffee {
-        height: 78vh;
+        height: 121vh;
     }
 
-    .emoji {
-        width: 15vw;
+    .heading {
         margin-top: 4vh;
+        height: 13vh;
+    }
+
+    .boxes {
+        height: 88vh;
+    }
+
+    .image {
+        height: 25vh;
+    }
+
+    .coffee {
+        width: 22vw;
+    }
+
+    .coffee-content {
+        height: 50vh;
+    }
+
+    .coffee-content h2 {
+        font-size: 2.5vw;
+    }
+
+    .coffee-content p {
+        font-size: medium;
     }
 
     .id {
-        height: 6vh;
-        margin-top: 1vh;
-        margin-bottom: 3vh;
+       height: 10vh;
     }
 
     .id h1 {
-        font-size: 48px;
+        font-size: 38px;
     }
 
-    .glass {
-        height: 50vh;
-        padding-left: 3vw;
-        padding-right: 3vw;
-    }
 
     .cup-of-coffee {
         height: 27vh;
     }
 
+    .coffee-rating {
+        height: 30.5vh;
+    }
+
+    .glass {
+        height: 60vh;
+    }
+    
+    .write {
+        font-size: large;
+    }
+
     .buttonn button {
-        width: 26vw;
-        height: 6.5vh;
+        width: 27vw;
     }
 
-    .page4 {
-        height: 40vh;
+    .page6 {
+        height: 132vh;
     }
 
-    .page5 {
-        height: 35vh;
+    .global {
+        width: 13vw;
     }
 
-    .favorite {
-        height: 35vh;
+    .today {
+        font-size: 4.5vw;
+    }
+
+    .lists {
+        height: 92vh;
+        padding-right: 12vw;
+        padding-left: 12vw;
+    }
+
+    .kit {
+        height: 25vh;
+    }
+
+    .beans {
+        width: 22vw;
+    }
+
+    .copy {
+        height: 60vh;
+    }
+
+    .headss {
+        font-size: large;
     }
 
     .btn-favt {
-        width: 30vw;
+        width: 27vw;
+    }
+
+    .start p {
+        font-size: large;
+    }
+
+    .page8 {
+        height: 22vh;
+    }
+
+    .contt {
+        margin-right: 4.5vw;
+    }
+
+    .professionals {
+        display: none;
+    }
+
+    .lasttt {
+        margin-top: 4.5vh;
+    }
+
+}
+
+@media (min-width:1150px) and (max-width:1250px) {
+
+    nav ul {
+        width: 50%;
+    }
+
+    nav button {
+        width: 15.3vw;
+    }
+
+    .page1 {
+        height: 67vh;
+        background-position: right;
+    }
+
+    .contents {
+        top: 10vh;
+        left: 5vw;
+        width: 40vw;
+        height: 45vh;
+    }
+
+    .contents h1 {
+        font-size: 37px;
+    }
+
+    .pink {
+        width: 15vw;
+        height: 7vh;
+    }
+
+    .page2 {
+        height: 155vh;
+    }
+
+    .heading {
+        margin-top: 7vh;
+        height: 12vh;
+    }
+
+    .header {
+        font-size: 40px;
+    }
+
+    .image {
+        height: 23vh;
+    }
+
+    .coffee {
+        width: 20vw;
+    }
+
+    .coffee-content {
+        height: 42vh;
+        align-items: flex-start;
+    }
+
+    .coffee-content h2 {
+        font-size: 2vw;
+    }
+
+    .coffee-content p {
+        font-size: medium;
+    }
+
+    .page3 {
+        height: 133vh;
+    }
+
+    .image-coffee {
+        height: 110vh;
+    }
+
+    .emoji {
+        width: 15vw;
+        margin-top: 3vh;
+    }
+
+    .id {
+        height: 12vh;
+    }
+
+    .id h1 {
+        font-size: 40px;
+    }
+
+    .cup-of-coffee {
+        height: 25vh;
+    }
+
+    .glass {
+        height: 70vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .coffee-rating {
+        height: 26.5vh;
+        padding: 2vh 1vw;
+    }
+
+    .buttonn {
+        margin-top: 2vh;
+    }
+
+    .buttonn button {
+        width: 25vw;
+        height: 7.5vh;
+    }    
+
+    .page4 {
+        height: 36vh;
+    }
+
+    .btn-favt {
+        width: 25vw;
         height: 6.5vh;
     }
 
     .page6 {
-        height: 117vh;
+        height: 105vh;
     }
 
     .global {
-        width: 15vw;
+        width: 10vw;
     }
 
     .today {
-        font-size: 50px;
-        margin-bottom: 8vh;
+        font-size: 41px;
     }
 
     .lists {
-        height: 75vh;
+       height: 72vh;
+    }
+
+    .kit {
+        height: 25vh;
+    }
+
+    .beans {
+        width: 19vw;
+    }
+
+    .copy {
+        height: 40vh;
+    }
+
+    .headss {
+        font-size: large;
+    }
+
+    .page8 {
+        height: 28vh;
+    }
+
+    .fir {
+        font-size: medium;
+    }
+
+
+}
+
+@media (min-width:1250px) and (max-width:1350px) {
+
+
+    nav ul {
+        width: 50%;
+    }
+
+    nav button {
+        width: 15.3vw;
+    }
+
+    .page1 {
+        background-position: right;
+        height: 66vh;
+    }
+
+    .contents {
+        top: 7vh;
+        left: 5vw;
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .contents h1 {
+        font-size: 37px;
+    }
+
+    .contents p {
+        font-size: larger;
+    }
+
+    .pink {
+        width: 14vw;
+        height: 7vh;
+    }
+
+    .page2 {
+        height: 160vh;
+    }
+
+    .heading {
+        height: 12vh;
+        margin-top: 8vh;
+    }
+
+    .boxes {
+        height: 65vh;
+    }
+
+    .image {
+        height: 22vh;
+    }
+
+    .coffee {
+        width: 20vw;
+    }
+
+    .coffee-content {
+        height: 35vh;
+    }
+
+    .next {
+        height: 65vh;
+    }
+
+    .page3 {
+        height: 124vh;
+    }
+
+    .emoji {
+        width: 13vw;
+        margin-top: 3vh;
+    }
+
+    .image-coffee {
+        height: 100vh;
+    }
+
+    .id {
+        height: 12vh;
+        margin-top: 5vh;
+    }
+
+    .id h1 {
+        font-size: 41px;
+    }
+
+    .cup-of-coffee {
+        height: 28vh;
+    }
+
+    .coffee-rating {
+        height: 20.5vh;
+    }
+
+    .glass {
+        height: 60vh;
+    }
+
+    .buttonn button {
+        width: 20vw;
+    }
+
+    .page4 {
+        height: 38vh;
+    }
+
+    .btn-favt {
+        width: 23vw;
+        height: 7.5vh;
+    }
+
+    .page6 {
+        height: 100vh;
+    }
+
+    .global {
+        width: 12vw;
+    }
+
+    .today {
+        font-size: 42px;
+    }
+
+    .lists {
         padding-right: 12vw;
         padding-left: 12vw;
+        height: 70vh;
+    }
+
+    .kit {
+        height: 25vh;
+    }
+
+    .copy {
+        height: 37vh;
+    }
+
+    .headss {
+        font-size: large;
+    }
+
+}
+
+@media (min-width:1350px) and (max-width:1440px) {
+
+    nav ul {
+        width: 45%;
+    }
+
+    nav button {
+        width: 14.3vw;
+    }
+
+    .page1 {
+        background-position: right;
+        height: 58vh;
+    }
+
+    .contents {
+        top: 1vh;
+        left: 3vw;
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .contents h1 {
+        font-size: 37px;
+    }
+
+    .contents p {
+        font-size: larger;
+    }
+
+    .pink {
+        width: 13vw;
+        height: 7vh;
+    }
+
+    .page2 {
+        height: 159vh;
+    }
+
+    .heading {
+        height: 12vh;
+        margin-top: 9vh;
+    }
+
+    .boxes {
+        height: 66vh;
+    }
+
+    .image {
+        height: 23vh;
+    }
+
+    .coffee {
+        width: 22vw;
+    }
+
+    .coffee-content {
+        height: 38vh;
+    }
+
+    .next {
+        height: 62vh;
+    }
+
+    .page3 {
+        height: 113vh;
+    }
+
+    .emoji {
+        width: 12vw;
+        margin-top: 4vh;
+    }
+
+    .image-coffee {
+        height: 90vh;
+    }
+
+    .id {
+        width: 12vw;
+        margin-top: 4vh;
+        margin-top: 5vh;
+    }
+
+    .id h1 {
+        font-size: 45px;
+    }
+
+    .glass {
+        height: 55vh;
+    }
+
+    .cup-of-coffee {
+        height: 25vh;
+    }
+
+    .coffee-rating {
+        height: 20.5vh;
+    }
+
+    .buttonn {
+        margin-top: 3vh;
+    }
+
+    .buttonn button {
+        width: 21vw;
+    }
+
+    .page4 {
+        height: 38vh;
+    }
+
+    .btn-favt {
+        width: 20vw;
+    }
+
+    .page6 {
+        height: 98vh;
+    }
+
+    .global {
+        width: 12vw;
+    }
+
+    .today {
+        font-size: 43px;
+    }
+
+    .lists {
+        height: 70vh;
     }
 
     .kit {
@@ -3099,42 +3576,16 @@ nav button:hover {
     }
 
     .beans {
-        width: 25vw;
+        width: 22vw;
     }
 
     .copy {
-        height: 45vh;
-        align-items: flex-start;
+        width: 22vw;
     }
 
-    .given {
-        margin-right: 4vw;
+    .headss {
+        font-size: large;
     }
-
-    .fir {
-        font-size: small;
-    }
-
-    .lasttt {
-        margin-top: 2.5vh;
-    }
-
-    .pop {
-        font-size: medium;
-    }
-}
-
-@media (min-width:1140px) and (max-width:1440px) {
-
-    .image {
-        height: 26vh;
-    }
-
-    .fir {
-        font-size: medium;
-    }
-
 
 }
-
 
