@@ -3008,6 +3008,24 @@ nav button:hover {
         height: 6vh;
     }
 
+    .page2 {
+        height: 194vh;
+        overflow: hidden;
+    }
+
+    .boxes {
+        height: 90vh;
+    }
+
+    .image {
+        height: 26vh;
+        overflow: hidden;
+    }
+
+    .coffee {
+        width: 21vw;
+    }
+
     .page3 {
         height: 128vh;
     }
@@ -3018,21 +3036,10 @@ nav button:hover {
 
     .heading {
         margin-top: 4vh;
-        height: 13vh;
+        height: 16vh;
     }
 
-    .boxes {
-        height: 88vh;
-    }
-
-    .image {
-        height: 25vh;
-    }
-
-    .coffee {
-        width: 22vw;
-    }
-
+   
     .coffee-content {
         height: 50vh;
     }
@@ -3076,6 +3083,7 @@ nav button:hover {
 
     .page6 {
         height: 132vh;
+        overflow: hidden;
     }
 
     .global {
@@ -3093,7 +3101,7 @@ nav button:hover {
     }
 
     .kit {
-        height: 25vh;
+        height: 28vh;
     }
 
     .beans {
@@ -3167,6 +3175,7 @@ nav button:hover {
 
     .page2 {
         height: 155vh;
+        overflow: hidden;
     }
 
     .heading {
@@ -3254,7 +3263,8 @@ nav button:hover {
     }
 
     .page6 {
-        height: 105vh;
+        height: 113vh;
+        overflow: hidden;
     }
 
     .global {
@@ -3270,7 +3280,7 @@ nav button:hover {
     }
 
     .kit {
-        height: 25vh;
+        height: 30vh;
     }
 
     .beans {
@@ -3334,6 +3344,7 @@ nav button:hover {
 
     .page2 {
         height: 160vh;
+        overflow: hidden;
     }
 
     .heading {
@@ -3409,7 +3420,7 @@ nav button:hover {
     }
 
     .page6 {
-        height: 100vh;
+        height: 115vh;
     }
 
     .global {
@@ -3418,6 +3429,7 @@ nav button:hover {
 
     .today {
         font-size: 42px;
+        overflow: hidden;
     }
 
     .lists {
@@ -3427,7 +3439,7 @@ nav button:hover {
     }
 
     .kit {
-        height: 25vh;
+        height: 30vh;
     }
 
     .copy {
@@ -3477,6 +3489,7 @@ nav button:hover {
 
     .page2 {
         height: 159vh;
+        overflow: hidden;
     }
 
     .heading {
@@ -3555,7 +3568,8 @@ nav button:hover {
     }
 
     .page6 {
-        height: 98vh;
+        height: 115vh;
+        overflow: hidden;
     }
 
     .global {
@@ -3571,7 +3585,8 @@ nav button:hover {
     }
 
     .kit {
-        height: 26vh;
+        height: 30vh;
+        overflow: hidden;
     }
 
     .beans {
