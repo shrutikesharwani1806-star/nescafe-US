@@ -2813,6 +2813,10 @@ nav button:hover {
         width: 23vw;
     }
 
+    .page2 {
+        height: 255vh;
+    }
+
     .header {
         font-size: 32px;
     }
@@ -2822,7 +2826,11 @@ nav button:hover {
     }
 
     .boxes {
-        height: 80vh;
+        height: 107vh;
+    }
+
+    .heading {
+        height: 12vh;
     }
 
     .coffee {
@@ -2839,24 +2847,40 @@ nav button:hover {
     }
 
     .next {
-        height: 79vh;
+        height: 107vh;
+    }
+
+    .page3 {
+        height: 164vh;
+    }
+
+    .image-coffee {
+        height: 140vh;
     }
 
     .emoji {
-        width: 15vw;
+        width: 8vw;
         margin-top: 5vh;
     }
 
+    .id {
+        height: 12vh;
+    }
+
+    .id h1 {
+        font-size: 33px;
+    }
+
     .glass {
-        height: 70vh;
+        height: 90vh;
     }
 
     .cup-of-coffee {
-        height: 33vh;
+        height: 28vh;
     }
 
     .coffee-rating{
-        height: 30.5vh;
+        height: 40vh;
     }
 
     .write {
@@ -3009,43 +3033,62 @@ nav button:hover {
     }
 
     .page2 {
-        height: 194vh;
+        height: 250vh;
         overflow: hidden;
     }
 
+    .header {
+        font-size: 35px;
+    }
+
     .boxes {
-        height: 90vh;
+        height: 100vh;
+    }
+
+    .next {
+        height: 100vh;
     }
 
     .image {
-        height: 26vh;
+        height: 35vh;
         overflow: hidden;
     }
 
     .coffee {
-        width: 21vw;
+        width: 17vw;
     }
 
     .page3 {
-        height: 128vh;
+       height: 152vh;
+       overflow: hidden;
     }
 
     .image-coffee {
-        height: 121vh;
+        height: 128vh;
+        overflow: hidden;
     }
 
     .heading {
         margin-top: 4vh;
         height: 16vh;
+        overflow: hidden;
+    }
+
+    .emoji {
+        width: 8vw;
+        overflow: hidden;
+        margin-top: 5vh;
     }
 
    
     .coffee-content {
-        height: 50vh;
+        height: 65vh;
+        overflow: hidden;
     }
 
     .coffee-content h2 {
         font-size: 2.5vw;
+        overflow: hidden;
     }
 
     .coffee-content p {
@@ -3077,31 +3120,35 @@ nav button:hover {
         font-size: large;
     }
 
+    .page4 {
+        height: 42vh;
+    }
+
     .buttonn button {
         width: 27vw;
     }
 
     .page6 {
-        height: 132vh;
+        height: 140vh;
         overflow: hidden;
     }
 
     .global {
-        width: 13vw;
+        width: 9vw;
     }
 
     .today {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 
     .lists {
-        height: 92vh;
+        height: 100vh;
         padding-right: 12vw;
         padding-left: 12vw;
     }
 
     .kit {
-        height: 28vh;
+        height: 40vh;
     }
 
     .beans {
@@ -3174,7 +3221,7 @@ nav button:hover {
     }
 
     .page2 {
-        height: 155vh;
+        height: 230vh;
         overflow: hidden;
     }
 
@@ -3184,19 +3231,23 @@ nav button:hover {
     }
 
     .header {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .boxes {
+        height: 95vh;
     }
 
     .image {
-        height: 23vh;
+        height: 35vh;
     }
 
     .coffee {
-        width: 20vw;
+        width: 17vw;
     }
 
     .coffee-content {
-        height: 42vh;
+        height: 52vh;
         align-items: flex-start;
     }
 
@@ -3208,16 +3259,20 @@ nav button:hover {
         font-size: medium;
     }
 
+    .next {
+        height: 95vh;
+    }
+
     .page3 {
-        height: 133vh;
+        height: 151vh;
     }
 
     .image-coffee {
-        height: 110vh;
+        height: 127vh;
     }
 
     .emoji {
-        width: 15vw;
+        width: 9vw;
         margin-top: 3vh;
     }
 
@@ -3234,13 +3289,13 @@ nav button:hover {
     }
 
     .glass {
-        height: 70vh;
+        height: 75vh;
         padding-left: 4vw;
         padding-right: 4vw;
     }
 
     .coffee-rating {
-        height: 26.5vh;
+        height: 32.5vh;
         padding: 2vh 1vw;
     }
 
@@ -3258,37 +3313,38 @@ nav button:hover {
     }
 
     .btn-favt {
-        width: 25vw;
+        width: 27vw;
         height: 6.5vh;
     }
 
     .page6 {
-        height: 113vh;
+        height: 125vh;
         overflow: hidden;
     }
 
     .global {
-        width: 10vw;
+        width: 8vw;
     }
 
     .today {
-        font-size: 41px;
+        font-size: 36px;
     }
 
     .lists {
-       height: 72vh;
+       height: 75vh;
     }
 
     .kit {
-        height: 30vh;
+        height: 35vh;
+        overflow: hidden;
     }
 
     .beans {
-        width: 19vw;
+        width: 17vw;
     }
 
     .copy {
-        height: 40vh;
+        height: 48vh;
     }
 
     .headss {
@@ -3343,50 +3399,50 @@ nav button:hover {
     }
 
     .page2 {
-        height: 160vh;
+        height: 230vh;
         overflow: hidden;
     }
 
     .heading {
-        height: 12vh;
+        height: 18vh;
         margin-top: 8vh;
     }
 
     .boxes {
-        height: 65vh;
+        height: 90vh;
     }
 
     .image {
-        height: 22vh;
-    }
-
-    .coffee {
-        width: 20vw;
-    }
-
-    .coffee-content {
         height: 35vh;
     }
 
+    .coffee {
+        width: 17vw;
+    }
+
+    .coffee-content {
+        height: 50vh;
+    }
+
     .next {
-        height: 65vh;
+        height: 90vh;
     }
 
     .page3 {
-        height: 124vh;
+        height: 155vh;
     }
 
     .emoji {
-        width: 13vw;
+        width: 8vw;
         margin-top: 3vh;
     }
 
     .image-coffee {
-        height: 100vh;
+        height: 131vh;
     }
 
     .id {
-        height: 12vh;
+        height: 15vh;
         margin-top: 5vh;
     }
 
@@ -3395,15 +3451,15 @@ nav button:hover {
     }
 
     .cup-of-coffee {
-        height: 28vh;
+        height: 25vh;
     }
 
     .coffee-rating {
-        height: 20.5vh;
+        height: 35.5vh;
     }
 
     .glass {
-        height: 60vh;
+        height: 88vh;
     }
 
     .buttonn button {
@@ -3424,11 +3480,11 @@ nav button:hover {
     }
 
     .global {
-        width: 12vw;
+        width: 9vw;
     }
 
     .today {
-        font-size: 42px;
+        font-size: 38px;
         overflow: hidden;
     }
 
@@ -3439,11 +3495,16 @@ nav button:hover {
     }
 
     .kit {
-        height: 30vh;
+        height: 35vh;
+        overflow: hidden;
+    }
+
+    .beans {
+        width: 18vw;
     }
 
     .copy {
-        height: 37vh;
+        height: 48vh;
     }
 
     .headss {
@@ -3493,54 +3554,59 @@ nav button:hover {
     }
 
     .heading {
-        height: 12vh;
+        height: 15vh;
         margin-top: 9vh;
     }
 
+    .header {
+        font-size: 35px;
+    }
+
     .boxes {
-        height: 66vh;
+        height: 85vh;
     }
 
     .image {
-        height: 23vh;
+        height: 33vh;
     }
 
     .coffee {
-        width: 22vw;
+        width: 18vw;
     }
 
     .coffee-content {
-        height: 38vh;
+        height: 43vh;
     }
 
     .next {
-        height: 62vh;
+        height: 85vh;
     }
 
     .page3 {
-        height: 113vh;
+        height: 150vh;
     }
 
     .emoji {
-        width: 12vw;
+        width: 9vw;
         margin-top: 4vh;
     }
 
     .image-coffee {
-        height: 90vh;
+       height: 126vh;
     }
 
     .id {
         margin-top: 4vh;
         margin-top: 5vh;
+        height: 15vh;
     }
 
     .id h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .glass {
-        height: 55vh;
+        height: 83vh;
     }
 
     .cup-of-coffee {
@@ -3548,7 +3614,7 @@ nav button:hover {
     }
 
     .coffee-rating {
-        height: 20.5vh;
+        height: 28.5vh;
     }
 
     .buttonn {
@@ -3568,33 +3634,33 @@ nav button:hover {
     }
 
     .page6 {
-        height: 115vh;
+        height: 130vh;
         overflow: hidden;
     }
 
     .global {
-        width: 12vw;
+        width: 8vw;
     }
 
     .today {
-        font-size: 43px;
+        font-size: 40px;
     }
 
     .lists {
-        height: 70vh;
+        height: 85vh;
     }
 
     .kit {
-        height: 30vh;
+        height: 35vh;
         overflow: hidden;
     }
 
     .beans {
-        width: 22vw;
+        width: 18vw;
     }
 
     .copy {
-        width: 22vw;
+        width: 45vw;
     }
 
     .headss {
